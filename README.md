@@ -4,35 +4,11 @@ Github page for paper \textbf{Context-Aware Tracking and Dynamic Introduction fo
 
 # Data
 
-\begin{table}
-% \vspace{-4mm}
-		\begin{center}
-            \scalebox{0.68}{
-				\begin{tabular}{lccccc}
-					\toprule
-					Dataset & Train & Dev & Test & $avg_c$ & $avg_t$ \\
-					\hline
-					\\[-6pt]
+Our experiments are concstructed on the three benchmarks covering both English and Chinese
+1. [CANARD](https://sites.google.com/view/qanta/projects/canard) is a representative English IUR dataset derived by QuAC, an open-domain conversational question answering dataset about specific Wikipedia sections.
+2. [CQR](https://github.com/alexa/alexa-dataset-contextual-query-rewrite) is an English IUR dataset extended from task-oriented dialogue between drivers and an in-car assistant.
+3. INSQR is a constructed challenging Chinese IUR dataset, which is collect by the real dialogues between customers and sales from our Alipay Platform. For the sake of data privacy, please contact us though email to get dataset.
 
-                    \small\textbf{ReWriter}~\cite{DBLP:conf/acl/SuSZSHNZ19} & 18000 & 2000 & - & 3.0 & 24.2\\
-                    
-					\small\textbf{Restoration}~\cite{DBLP:conf/emnlp/PanBWZL19} & 116360 & 3024 & 2999 & 4.9 & 34.4\\
+# Code
+For the sake of data privacy, please contact us though email to get dataset.
 
-                    % \textbf{Task} & - & - & - & - & - \\
-
-                    \small\textbf{MuDoCo}~\cite{DBLP:conf/lrec/MartinPU20} & 5901 & 691 & 749 & 5.4 & 41.1 \\
-                    
-                    \small\textbf{CQR}~\cite{2019arXiv190311783R} & 2131 & 271 & 276 & 5.7 & 46.2 \\
-                    
-					\small\textbf{CANARD}~\cite{DBLP:conf/emnlp/ElgoharyPB19} & 31526 & 3430 & 5571 & 9.8 & 92.9 \\
-                    
-				\small\textbf{INSQR} & 4733 & 591 & 593 & \textbf{30.1} & \textbf{600.5} \\
-					\bottomrule
-			\end{tabular}
-			}
-		\caption{The comparison of INSQR with the existing benchmarks. Here, "$avg_c$" and "$avg_t$" denote the average of turns and length of context, separately. We use the three with the longest context for experiments.}\label{dataset}
-        \vspace{-3mm}
-	\end{center}
-\end{table}
-
-Our experiments are concstructed on 
