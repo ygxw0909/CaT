@@ -1,6 +1,6 @@
 # CaT
 
-Github page for paper \textbf{Context-Aware Tracking and Dynamic Introduction for Incomplete Utterance Rewriting in Extended Multi-Turn Dialogues} accepted by Findings of ACL 2024
+Github page for paper **Context-Aware Tracking and Dynamic Introduction for Incomplete Utterance Rewriting in Extended Multi-Turn Dialogues** accepted by Findings of ACL 2024
 
 # Data
 
