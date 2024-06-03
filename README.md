@@ -9,6 +9,4 @@ Our experiments are concstructed on the three benchmarks covering both English a
 2. [CQR](https://github.com/alexa/alexa-dataset-contextual-query-rewrite) is an English IUR dataset extended from task-oriented dialogue between drivers and an in-car assistant.
 3. INSQR is a constructed challenging Chinese IUR dataset, which is collect by the real dialogues between customers and sales from our Alipay Platform. For the sake of data privacy, please contact us though email to get dataset.
 
-# Code
-For the sake of data privacy, please contact us though email to get dataset.
 
